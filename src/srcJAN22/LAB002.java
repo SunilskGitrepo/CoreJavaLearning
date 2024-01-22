@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LAB002 {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your score");
+        System.out.println("Enter your score:");
         int score = sc.nextInt();
          if(score >= 90 && score<=100){
              System.out.println("Grade A");
